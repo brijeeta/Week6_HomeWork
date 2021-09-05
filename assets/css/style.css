@@ -1,0 +1,18 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.input,
+.button {
+    border-radius: 8px;
+}
+
+.tile {
+    font-size: 16px;
+    background-color: hsl(219, 70%, 96%);
+    text-align: center;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
