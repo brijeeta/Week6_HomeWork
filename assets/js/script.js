@@ -18,7 +18,7 @@ var currentHour = moment().format('H');
 
 onPageLoad();
 
-// on load show data for NYC
+// on page load show data for Delaware Ohio
 function onPageLoad() {
     var name = "Delaware,Ohio"
     var lat = 40.2987;
@@ -40,7 +40,7 @@ function getWeather(lat, lon) {
             // get weather data
             console.log(data);
 
-            // // current temperature and icon
+            // current temperature and icon
             let tempData = Math.round(data.current.temp);
             let currentIcon = data.current.weather[0].icon;
             let iconURL = "http://openweathermap.org/img/w/" + currentIcon + ".png";
