@@ -23,8 +23,11 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
-* [GitHub Repository](https://github.com/brijeeta/Week6_HomeWork/)
-* [Deployed App link](https://brijeeta.github.io/Week6_HomeWork/)
+
+This project has been deployed to GitHub Pages. To get this project up and running, you can follow the deployment link. Or, download the sources files to use this as a template.
+
+*[GitHub Repository](https://github.com/brijeeta/Week6_HomeWork/)
+*[Deployed App link](https://brijeeta.github.io/Week6_HomeWork/)
 
 ## Technologies used
 
@@ -38,5 +41,5 @@ THEN I am again presented with current and future conditions for that city
 
 ## Demo
 
-![Demo]()
+![Demo](./assets/demo/weather_dashboard.gif)
 
