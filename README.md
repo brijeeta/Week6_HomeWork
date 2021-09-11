@@ -26,8 +26,8 @@ THEN I am again presented with current and future conditions for that city
 
 This project has been deployed to GitHub Pages. To get this project up and running, you can follow the deployment link. Or, download the sources files to use this as a template.
 
-*[GitHub Repository](https://github.com/brijeeta/Week6_HomeWork/)
-*[Deployed App link](https://brijeeta.github.io/Week6_HomeWork/)
+* [GitHub Repository](https://github.com/brijeeta/Week6_HomeWork/)
+* [Deployed App link](https://brijeeta.github.io/Week6_HomeWork/)
 
 ## Technologies used
 
