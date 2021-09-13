@@ -45,7 +45,7 @@ function getWeather(lat, lon) {
             // current temperature and icon
             var tempData = Math.round(data.current.temp);
             var currentIcon = data.current.weather[0].icon;
-            var iconURL = "http://openweathermap.org/img/w/" + currentIcon + ".png";
+            var iconURL = "https://openweathermap.org/img/w/" + currentIcon + ".png";
 
             $(".temp-icon").html("<img src='" + iconURL + "'>");
             currentTemp.text("Temperature: " + tempData + "\u00B0");
@@ -82,7 +82,7 @@ function getWeather(lat, lon) {
             var date1 = moment().add(1, "days");
             $(".day1").text(date1.format("MM-DD-YY"));
             var day1Icon = data.daily[1].weather[0].icon;
-            var dayIconURL1 = "http://openweathermap.org/img/w/" + day1Icon + ".png";
+            var dayIconURL1 = "https://openweathermap.org/img/w/" + day1Icon + ".png";
             $(".icon-1").html("<img src='" + dayIconURL1 + "'>");
             var day1Temp = Math.round(data.daily[1].temp.day);
             $(".day1-temp").text(day1Temp + "\u00B0");
@@ -92,7 +92,7 @@ function getWeather(lat, lon) {
             var date2 = moment().add(2, "days");
             $(".day2").text(date2.format("MM-DD-YY"));
             var day2Icon = data.daily[2].weather[0].icon;
-            var dayIconURL2 = "http://openweathermap.org/img/w/" + day2Icon + ".png";
+            var dayIconURL2 = "https://openweathermap.org/img/w/" + day2Icon + ".png";
             $(".icon-2").html("<img src='" + dayIconURL2 + "'>");
             var day2Temp = Math.round(data.daily[2].temp.day);
             $(".day2-temp").text(day2Temp + "\u00B0");
@@ -102,7 +102,7 @@ function getWeather(lat, lon) {
             var date3 = moment().add(3, "days");
             $(".day3").text(date3.format("MM-DD-YY"));
             var day3Icon = data.daily[3].weather[0].icon;
-            var dayIconURL3 = "http://openweathermap.org/img/w/" + day3Icon + ".png";
+            var dayIconURL3 = "https://openweathermap.org/img/w/" + day3Icon + ".png";
             $(".icon-3").html("<img src='" + dayIconURL3 + "'>");
             var day3Temp = Math.round(data.daily[3].temp.day);
             $(".day3-temp").text(day3Temp + "\u00B0");
@@ -112,7 +112,7 @@ function getWeather(lat, lon) {
             var date4 = moment().add(4, "days");
             $(".day4").text(date4.format("MM-DD-YY"));
             var day4Icon = data.daily[4].weather[0].icon;
-            var dayIconURL4 = "http://openweathermap.org/img/w/" + day4Icon + ".png";
+            var dayIconURL4 = "https://openweathermap.org/img/w/" + day4Icon + ".png";
             $(".icon-4").html("<img src='" + dayIconURL4 + "'>");
             var day4Temp = Math.round(data.daily[4].temp.day);
             $(".day4-temp").text(day4Temp + "\u00B0");
@@ -122,7 +122,7 @@ function getWeather(lat, lon) {
             var date5 = moment().add(5, "days");
             $(".day5").text(date5.format("MM-DD-YY"));
             var day5Icon = data.daily[5].weather[0].icon;
-            var dayIconURL5 = "http://openweathermap.org/img/w/" + day5Icon + ".png";
+            var dayIconURL5 = "https://openweathermap.org/img/w/" + day5Icon + ".png";
             $(".icon-5").html("<img src='" + dayIconURL5 + "'>");
             var day5Temp = Math.round(data.daily[5].temp.day);
             $(".day5-temp").text(day5Temp + "\u00B0");
